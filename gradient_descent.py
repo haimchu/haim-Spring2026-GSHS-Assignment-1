@@ -28,13 +28,14 @@ def gradient_descent(starting_values: tuple, learning_rate: float, num_iteration
     '''
     # Your code here
     def gradient_descent(starting_values: tuple, learning_rate: float, num_iterations: int) -> tuple:
-      x, y = starting_values
+        x, y = starting_values
 
-      for _ in range(num_iterations):
-        grad_x = 2 * x + 2
-        grad_y = 2 * y + 4
+        for _ in range(num_iterations):
+            grad_x = 2 * x + 2
+            grad_y = 2 * y + 4
 
-        x -= learning_rate * grad_x
-        y -= learning_rate * grad_y
+            x -= learning_rate * grad_x
+            y -= learning_rate * grad_y
 
-      return x, y
+        return x, y
+
