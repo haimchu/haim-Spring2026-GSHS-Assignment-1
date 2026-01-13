@@ -28,7 +28,7 @@ def gradient_descent(starting_values: tuple, learning_rate: float, num_iteration
     '''
     # Your code here
     def gradient_descent(starting_values: tuple, learning_rate: float, num_iterations: int) -> tuple:
-    x, y = starting_values
+     x, y = starting_values
 
     for _ in range(num_iterations):
         grad_x = 2*x
